@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Imperator_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Imperator_files/main.css">
+    <title>Imperator</title>
+</head>
+
+<body cz-shortcut-listen="true">
+    <header>
+        <div class="navbar-top">
+            <div class="container">
+                <div class="navbar_top_nav">
+                    <p>RU</p>
+                    <p>UZB</p>
+                </div>
+            </div>
+            <div class="navbar-bottom">
+                <div class="container">
+                    <div class="navbar_menu">
+                        <div class="navbar_menu_left">
+                            <div class="nav_brand">
+                                <a href="http://127.0.0.1:5500/index.html">
+                                    <img src="./Imperator_files/milandi.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="bars_icon">
+                                <img src="./Imperator_files/bars.svg" alt="">
+                            </div>
+                            <ul class="nav_menu_center ">
+                                <li><a href="http://127.0.0.1:5500/#">Главная</a></li>
+                                <li><a href="http://127.0.0.1:5500/#">О нас</a></li>
+                                <li><a href="http://127.0.0.1:5500/#">Категории</a></li>
+                                <li><a href="http://127.0.0.1:5500/#">Сотрудничество</a></li>
+                            </ul>
+                            <div class="nav_logo">
+                                <a href="http://127.0.0.1:5500/index.html#">
+                                    <img src="./Imperator_files/logo.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <ul class="nav_menu_right ">
+                            <li>
+                                <a href="http://127.0.0.1:5500/index.html#" class="btn btn_outline">Войти</a> </li>
+                            <li>
+                                <a href="http://127.0.0.1:5500/index.html#" class="btn btn btn_secondary">Зарегистрироваться</a>
+                            </li>
+                        </ul>
+                        <ul class="nav_menu_basket">
+                            <li class="basket">
+                                <a href="http://127.0.0.1:5500/index.html#">
+                                    <img src="./Imperator_files/basket.svg" alt="Not Found Basket">
+                                </a>
+                            </li>
+                            <li class="times">
+                                <a href="http://127.0.0.1:5500/index.html#">
+                                    <img src="./Imperator_files/times.svg" alt="Not Found Basket">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_one">
+            <div class="main_section">
+                <div class="section_back_img"></div>
+                <div class="section_black_one" style="
+    background: #000;
+"></div>
+                <div class="section_black">
+                    <div class="container">
+                        <div class="section_text">
+                            <h1>Быстрый и удобный шоппинг, не выходя из дома.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis lectus odio vitae,
+                                duis nec ut velit, fermentum. Diam sollicitudin arcu euismod morbi. Adipiscing bibendum
+                                elementum, fermentum amet quis erat.
+                            </p>
+                            <p>Все товары</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./Imperator_files/main.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
