@@ -1,10 +1,4 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+import Swiper from "swiper";
+import "swiper/swiper-bundle.css";
 
-function plusSlides(n) {
-  showSlides((slideIndex += n));
-}
-
-function currentSlide(n) {
-  showSlides((slideIndex = n));
-}
+const swiper = new Swiper(".image-slider");
