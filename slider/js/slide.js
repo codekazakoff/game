@@ -1,4 +1,7 @@
-import Swiper from "swiper";
-import "swiper/swiper-bundle.css";
-
-const swiper = new Swiper(".image-slider");
+new Swiper(".image-slider", {
+  // strelka
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
