@@ -1,3 +1,26 @@
 {
-    "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "editor.colorDecorators": false,
+  "editor.mouseWheelZoom": true,
+  "workbench.editor.closeEmptyGroups": false,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Monaco",
+  "editor.inlayHints.fontFamily": "Monaco",
+  "markdown.preview.fontFamily": "Monaco",
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "Print to console": {
+    "scope": "javascript, typescript",
+    "prefix": "log",
+    "body": ["console.log('$1');", "$2"],
+    "description": "Log output to console"
+		},
+		"json.schemas": [
+		
+		]
 }

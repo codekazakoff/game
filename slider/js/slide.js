@@ -1,3 +1,5 @@
+
+
 new Swiper(".image-slider", {
   // strelka
   navigation: {
